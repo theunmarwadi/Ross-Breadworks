@@ -1,0 +1,960 @@
+/* LOGIN PAGE */
+
+.login-bg {
+    background: linear-gradient(to bottom right, #feedfb, #fcefe2);
+}
+
+.login-col {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.blogin-div {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .1);
+    padding: 20px 10px;
+    background-color: #fff;
+}
+
+.logintobrooks {
+    font-size: 32px;
+    margin-top: 15px;
+    color: #535766;
+    font-weight: 200;
+}
+
+.third-party-login {
+    margin-bottom: 40px;
+}
+
+.thirdparty-heading {
+    color: #94969f;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.lb-facebook {
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #696b79;
+    height: 50px;
+    border: 1px solid #bfc0c6;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.lbf-bg {
+    background-color: #4267b2;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.g {
+    color: #4285f4;
+}
+
+.o {
+    color: #ea4335;
+}
+
+.oo {
+    color: #fbbc05;
+}
+
+.gg {
+    color: #4285f4;
+}
+
+.l {
+    color: #34a853;
+}
+
+.e {
+    color: #ea4335;
+}
+
+.thirdparty-heading {
+    color: #94969f;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.login-fieldset {
+    margin: 20px;
+    border-radius: 5px;
+    padding: 0;
+    border: 1px solid #f5bad4;
+    -webkit-box-shadow: 0 2px 5px #ffd9e2;
+    box-shadow: 0 2px 5px #ffd9e2;
+}
+
+.login-input {
+    display: block;
+    color: #282c3f;
+    font-size: 15px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #d5d6d9;
+}
+
+.li-bordern {
+    border-bottom: none;
+}
+
+.login-btn-field {
+    padding: 10px 20px;
+    margin: 0;
+    border: 0;
+}
+
+.login-button {
+    background-color: #f5bad4;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+}
+
+.sign-up-link {
+    text-align: left;
+    padding: 20px;
+}
+
+.sul {
+    cursor: pointer;
+    text-decoration: none;
+    color: #f7c9dd;
+    font-size: 13px;
+    padding: 10px 0;
+    margin-left: 5px;
+}
+
+.signup-rt-link {
+    float: right;
+}
+
+.signup-rt-link span {
+    color: #94969f;
+    font-size: 12px;
+}
+
+/* LOGIN PAGE */
+
+/* SIGNUP PAGE */
+
+.register-gender {
+    position: relative;
+    border: 0;
+    font-size: 13px;
+    color: #696e79;
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+    border-top: 1px solid #d5d6d9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.register-gender-title {
+    width: auto;
+    display: inline;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.register-gender-radio {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.register-gender-label {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.s-m-number {
+    border-bottom: none;
+}
+
+/* SIGNUP PAGE */
+
+
+/* PRODUCT PAGE  */
+.indic-images {
+    position: unset;
+}
+
+.carousel-indicators li {
+    width: 20%;
+    height: auto;
+}
+
+.carousel-div,
+.product-detail {
+    padding: 10%;
+}
+
+.brooks-product {
+    background: -webkit-linear-gradient(#ec48b1, #f2903d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    display: flex;
+    font-family: 'Hind', sans-serif;
+}
+
+.dfac {
+    display: flex;
+    align-items: center;
+}
+
+.product-page-name {
+    color: #b2b0b0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.product-mrp {
+    padding-top: 12px;
+}
+
+.pachita {
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.strike-price {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.tapachi {
+    font-size: 18px;
+}
+
+.installments {
+    background-color: #fff9a5;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+
+}
+
+.clander-icon {
+    padding-right: 10px;
+}
+
+.div-install {
+    padding-top: 5%;
+}
+
+.inc-tax {
+    font-size: 0.9rem;
+    padding-top: 1%;
+}
+
+.size {
+    padding-top: 2%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.various-sizes {
+    display: flex;
+    padding-top: 3%;
+}
+
+.size-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px #a29191 solid;
+    margin-right: 20px;
+}
+
+.size-circle a {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    font-weight: 700;
+}
+
+.size-circle:hover {
+    color: white;
+    background-color: #084f8b;
+    transition: 0.6s;
+}
+
+.orange-circle {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: orange;
+    border: 1px #a29191 solid;
+    margin-right: 20px;
+}
+
+.green-circle {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    border: 1px #a29191 solid;
+    margin-right: 20px;
+}
+
+.addtobag-div button {
+    background-color: #f5abcb;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 3;
+    letter-spacing: 2.2px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.addtobag-div {
+    display: flex;
+    padding-top: 10%;
+}
+
+.atb {
+    width: 80%;
+}
+
+.atb-h {
+    width: 20%;
+}
+
+.atb-heart {
+    font-size: 1.5rem;
+}
+
+.atb-icon {
+    padding-right: 15px;
+}
+
+.pcode-number {
+    display: flex;
+    padding-top: 2%;
+}
+
+.iandc-detail {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.pcode {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.sizeandfit {
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.sweatshirtbybroo {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 2%;
+}
+
+.sweatshirt-list {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.btn-link {
+    padding-top: 2%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.accordion button:hover {
+    text-decoration: none;
+}
+
+.accordion button:focus {
+    text-decoration: none;
+}
+
+.ch-collapse {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.ch-collapse button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-check {
+    border: 1px solid #d1d1d1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.delivery-check label {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input-check-btn input {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+}
+
+.input-check-btn button {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    background-color: 828282;
+    color: #fff;
+}
+
+.dfjcimg {
+    display: flex;
+    justify-content: center;
+}
+
+.dfjcimg img {
+    width: 85%;
+}
+
+.dfjcimg.active {
+    display: flex;
+    justify-content: center;
+}
+
+.ymal {
+    font-size: 24px;
+}
+
+
+/* PRODUCT PAGE  */
+
+
+/* CART PAGE */
+.brooks-cart {
+    padding-bottom: 10%;
+}
+
+.cp-heading {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+
+.mb-div {
+    width: 33.33%;
+}
+
+.os-div {
+    width: 48%;
+}
+
+.h-my-cart span {
+    margin: 0 15px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.cp-heading h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.cp-heading h2:after {
+    background: #000;
+    height: 2px;
+    flex: 1;
+    content: '';
+}
+
+.cart-count {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.cart-item {
+    display: flex;
+    margin-top: 16px;
+    border: 1px solid #dcddde;
+    background-color: #fff;
+}
+
+.cart-item-img {
+    padding: 5px;
+}
+
+.cart-item-info {
+    padding: 5px;
+}
+
+.cart-item-title {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-product-name {
+    color: #828282;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.cart-product-name span {
+    font-weight: 900;
+    color: #333;
+}
+
+.size-qty {
+    display: flex;
+}
+
+.cart-item-size {
+    display: flex;
+}
+
+.size-label {
+    display: flex;
+    width: 50px;
+    font-weight: bold;
+    color: #333;
+    line-height: 26px;
+}
+
+.size-list {
+    width: 120px;
+    margin: 0 15px;
+}
+
+.size-list select {
+    min-height: 26px;
+    font-size: 12px;
+    color: #000;
+    background-color: white;
+    border-radius: 0;
+    text-indent: 5px;
+    padding: 0 0 0 1px;
+    width: 70%;
+    -webkit-appearance: none;
+}
+
+.cart-item-qty {
+    display: flex;
+}
+
+.qty-box {
+    display: flex;
+    border: 1px solid #d1d1d1;
+    margin: 0 0 0 15px;
+}
+
+.qty-minus,
+.qty-plus {
+    width: 24px;
+    border-right: 1px solid #dcddde;
+    text-align: center;
+}
+
+.item-qty {
+    text-align: center;
+    width: 70px;
+    line-height: 24px;
+    font-size: 0.875rem;
+    border-right: 1px solid #dcddde;
+}
+
+.cart-item-price {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 10px;
+}
+
+.lite-color {
+    color: #ccc;
+}
+
+.promo-code {
+    margin-bottom: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.coupon-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coupon-box input {
+    min-height: 38px;
+    flex: 3;
+    padding-left: 10px;
+    color: #333;
+    border: 1px solid #dcddde;
+}
+
+.btn-apply {
+    flex: 1;
+    background-color: #f5abcb;
+    color: #fff;
+    min-height: 38px;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.cart-coupon {
+    margin-bottom: 32px;
+}
+
+.offerTitle {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.cart-checkout h3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.cart-payment-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cart-payment-section h3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.show_order_detail {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    line-height: 19px;
+    color: #3b73af;
+    font-size: 12px;
+}
+
+.pioft {
+    color: #7b7b7b;
+    font-size: 0.625rem;
+    font-weight: normal;
+}
+
+.info-circle {
+    padding-left: 10px;
+}
+
+.s-charges {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.cart-payment-section div {
+    padding-top: 5px;
+}
+
+.checkout-btn,
+.thank-you .checkout-btn {
+    width: 100%;
+    font-size: 16px;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    background-color: #f5abcb;
+    color: white;
+    line-height: 50px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.genuine {
+    color: #f16521;
+    font-weight: 500;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* CART PAGE */
+
+/* CAKES */
+.patc,
+.pqview {
+    font-size: 13px;
+}
+
+.pproname {
+    font-size: 14px;
+}
+
+/* CAKES */
+
+/* T&C */
+.tandc-title {
+    font-size: 35px !important;
+}
+
+.text-block p {
+    color: #888888;
+}
+
+.tandc-bg ul li {
+    list-style: none;
+}
+
+/* T&C */
+
+/* FAQS */
+
+.faq-div span {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.faq-col-btn {
+    padding-top: 0;
+    font-size: 1rem;
+}
+
+.c-border {
+    border: 1px solid #f1579b;
+}
+
+/* FAQS */
+
+/* CONTACT */
+
+.bg-color {
+    background-color: #3c1d1a;
+}
+
+.sm-color {
+    background-color: #f5abcb;
+    color: #fff;
+}
+
+.section-padding {
+    padding: 40px 0;
+}
+
+.formrow {
+    flex-direction: column;
+}
+
+.plr {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* CONTACT */
+
+
+/* GALLERY */
+.c-yfj {
+    color: #000000;
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.contact-p {
+    color: #929391;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+}
+
+
+.tp-gallery {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 26px;
+}
+
+.co-ob {
+    text-align: center;
+}
+
+.instagram-heading {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: linear-gradient(#d73a78, #f17e3a)
+}
+
+.hobj {
+    height: 60%;
+    object-fit: cover;
+}
+
+.gallery-img {
+    background-image: url(https://images.unsplash.com/photo-1509957879660-dd8846a0b43d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragraph {
+    letter-spacing: 3px;
+}
+
+.inst-img img {
+    width: 255px;
+    height: 255px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    object-fit: cover;
+}
+
+/* GALLERY */
+
+
+/* ABOUT US */
+
+.abtdifimg {
+    margin-bottom: 35px;
+    width: 1050px;
+    height: 192px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-us-page p {
+    margin-bottom: 25px;
+}
+
+/* ABOUT US */
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+    .product-page-name {
+        font-size: 1.2rem;
+    }
+
+    .cart-product-name {
+        font-size: 0.8rem;
+    }
+
+    .size-qty {
+        display: block;
+    }
+
+    .propc {
+        padding: 0;
+        margin: 0;
+    }
+
+    .patc,
+    .pqview {
+        font-size: 6px;
+    }
+
+    .pproname {
+        font-size: 8px;
+    }
+
+    .faq-col-btn {
+        font-size: 0.75rem;
+    }
+
+    .inst-img img {
+        width: 77px;
+        height: 77px;
+    }
+
+    .abtdifimg {
+        width: 321px;
+        height: 60px;
+    }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .patc,
+    .pqview {
+        font-size: 9px;
+    }
+
+    .pproname {
+        font-size: 10px;
+    }
+
+    .inst-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .abtdifimg {
+        width: 630px;
+        height: 116px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .patc,
+    .pqview {
+        font-size: 9px;
+    }
+
+    .pproname {
+        font-size: 10px;
+    }
+
+    .inst-img img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .abtdifimg {
+        width: 870px;
+        height: 160px;
+    }
+}

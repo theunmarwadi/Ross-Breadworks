@@ -1,0 +1,542 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- GOOGLE FONT CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!--FONT AWESOME KIT-->
+    <script src="https://kit.fontawesome.com/ab3c76b67e.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- BOOTSTRAP JS CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Tiny Slider
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"> -->
+    <!-- KARIGAR.CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- KARIGAR.CSS -->
+    <link rel="stylesheet" href="stylemedia.css">
+    <!-- LOGINSIGNUP.CSS -->
+    <link rel="stylesheet" href="loginsignup.css">
+    <!-- TITLE ICON -->
+    <link rel="icon" href="rosslogo.jpeg" type="image/gif" sizes="14x14">
+    <title>ROSS - Cakes</title>
+
+</head>
+
+<body>
+    <div>
+        <!-- NAV HEADER -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="plc d-flex d-lg-none">
+                <div class="profile-d pr-4">
+                    <a href="login.html">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="cart-d">
+                    <a href="cart.html">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        <span class="cart-two ctmr">2</span>
+                    </a>
+                </div>
+                <div class="search-d pr-4 d-none">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+            <a class="navbar-brand nbmz" href="index.html">
+                <div class="title-ross">₹OSS</div>
+                <div class="title-breadworks">Breadworks</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse ul-plc" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown pro-li">
+                        <a class="nav-link dropdown-toggle pl-act" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="cakes.html">CAKES</a>
+                            <a class="dropdown-item" href="biscuits.html">BISCUITS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="specials.html">SPECIALS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html" tabindex="-1" aria-disabled="true">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 d-block d-lg-none nav-search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn sbtnc my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div class="plc d-none d-lg-flex">
+                    <div class="loghov">
+                        <div class="profile-d pr-4">
+
+                            <a href="login.html">
+                                <i class="fa fa-user pro-icon" aria-hidden="true"></i>
+                            </a>
+                        </div>
+
+                        <div class="hovls d-none d-xl-flex">
+                            <a href="login.html" class="loginh">LOGIN</a>
+                            <a href="sign-up.html" class="loginh">SIGN UP</a>
+                        </div>
+                    </div>
+                    <div class="cart-d pr-4">
+                        <a href="cart.html">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <span class="cart-two">2</span>
+                        </a>
+                    </div>
+                    <div class="search-d pr-4">
+                        <a href="search.html">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- NAV HEADER -->
+
+        <!-- CAKES PAGE -->
+
+        <div class="container">
+            <div class="category-heading pt-4">CAKES</div>
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 pb-4">
+                    <a href="product.html" target="blank" class="img-hover">
+                        <div class="card product-card propc">
+                            <img src="https://www.passarella.gr/files/template/passarella/imgs/passarella/DSC_0327b_cropped.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="quick-actions">
+                                <a href="product-page.html" target="blank">
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="atc patc">ADD TO CART</button>
+                                </a>
+                                <a href="#" class="aqa">
+                                    <button class="qview pqview">QUICK VIEW</button>
+                                </a>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title product-name pproname">NATURES WHOLEWHEAT CAKE</h5>
+                                <p class="card-text product-price">₹100</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CAKES PAGE -->
+
+        <!-- FOOTER -->
+        <footer class="footer-light">
+
+            <div class="footer-big">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <div class="widget-about">
+                                <div class="kglogodiv">
+                                    <a class="navbar-brand nbmz" href="#">
+                                        <div class="title-ross">₹OSS</div>
+                                        <div class="title-breadworks">Breadworks</div>
+                                    </a>
+                                </div>
+                                <p>
+                                    1st Floor, Mitti's Building, Chaitanya Enclave, Khajaguda, Hyderabad, Telangana
+                                    500075
+                                </p>
+
+                                <ul class="contact-details">
+                                    <li>
+                                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                        <a href="tel:987-654-3210">987-654-3210</a>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                        <a href="mailto:support@ross.com">support@ross.com</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="footer-widget">
+                                <div class="footer-menu">
+                                    <h4 class="footer-widget-title">Popular Category</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="cakes.html">Cakes</a>
+                                        </li>
+                                        <li>
+                                            <a href="biscuits.html">Biscuits</a>
+                                        </li>
+                                        <li>
+                                            <a href="cakes.html">Specials</a>
+                                        </li>
+                                        <li>
+                                            <a href="biscuits.html">Sweets</a>
+                                        </li>
+                                        <li>
+                                            <a href="cakes.html">Ice Cream</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="footer-widget">
+                                <div class="footer-menu">
+                                    <h4 class="footer-widget-title">Our Company</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="cakes.html">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="gallery.html">Gallery</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-us.html">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="footer-widget">
+                                <div class="footer-menu">
+                                    <h4 class="footer-widget-title">Help Support</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="tandc.html">Terms &amp; Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="privacy.html">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="return.html">Return &amp; Refund</a>
+                                        </li>
+                                        <li>
+                                            <a href="shipping.html">Shipping Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="faqs.html">FAQs</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mini-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="copyright-text">
+                                <p>© 2018. All rights reserved. Created by
+                                    <a href="index.html">ROSS Breadworks</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- FOOTER -->
+    </div>
+</body>
+
+</html>
